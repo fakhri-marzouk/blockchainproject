@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.main-section{
+
+width:100%;
+height:90vh;
+max-height: fit-content;
+margin:0;
+padding:0;
+}
+
+.main-section-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:100%;
+  
+}
+.hero-panel{
+
+    width:50%;
+    height:100%;
+     margin:auto;
+
+}
+.bank-image-container{
+
+    align-items: center;
+    width:50%;
+    height:100%;
+     margin:auto;
+     display: flex;
+     align-items: center;
+}
+
+.bank-image{
+    width:80%;
+    height:60%;
+  
+}
+.banchain{
+    margin-left: 30%;
+    margin-top: 15%;
+
+}
+.content-container{
+ 
+    font-family: 'Poppins', sans-serif;
+    margin:auto;
+    width:80%;
+    height:fit-content;
+}
+    
+.content-container >h1{
+    text-transform: uppercase;
+    font-size: clamp(1.5rem,5vw,4rem);
+    color:wheat
+}
+.content-container >h2{
+    
+    font-size: clamp(1.2rem,2vw,4rem);
+    color:wheat;
+}
+.content-container >h3{
+    color:wheat;
+    font-size: clamp(0.7rem,0.8vw,4rem);
+    font-weight: 500;
+}
+
+
+.start-button{
+    outline: 0;
+    border:0;
+    background-color: wheat;
+    color: white;
+    height:70px;
+    width:220px;
+    margin-left: 40%;
+    margin-top: 15%;
+    transition: 400ms;
+}
+
+.start-button:hover{
+    transition: 400ms;
+    cursor: pointer;
+    background-color: wheat;
+    color:black;
+}
